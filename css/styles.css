@@ -1,0 +1,163 @@
+#title {
+  background-color: #ff0026;
+  padding: 25px 200px 4.5rem 200px;
+  color: #ffffff;
+  height: 720px;
+}
+h6 {
+  display: inline-block;
+  margin-left: -7px;
+  font-size: 15px;
+}
+h1 {
+  font-family: "montserrat";
+  /* font-family: montserrat-black; */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+body {
+  font-family: "montserrat";
+}
+/* navigation */
+.navbar-brand {
+  font-family: "ubantu";
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-thin";
+}
+.rex{
+  text-align: center;
+}
+/* buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+/* title-image */
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 120px;
+  padding-top: 50px;
+}
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+h3 {
+  font-family: "montserrat-black";
+
+}
+h2 {
+  font-family: montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p {
+  color: #8f8f8f;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff0020;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-img {
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.presslogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing-section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.p-c {
+  padding: 3% 2%;
+}
+.cd{
+  line-height: 0.89;
+}
+@media (max-width:1028px){
+ .title-img{
+   position: static;
+   transform: rotate(0deg);
+   display: block;
+   margin: auto;
+ }
+ #title{
+   height: auto;
+   /* text-align: center; */
+   background-color: #ff4c68;
+ }
+ .legs{
+   background-color: #ff4c68;
+ }
+}
+/* cta section */
+.bottom{
+  font-family: "montserrat";
+  /* font-family: montserrat-black; */
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffff;
+  width: 80%;
+  margin: auto;
+  padding: 50px 50px 0 50px;
+}
+#cta{
+  background-color: #ff0026;
+}
+.cont{
+  text-align: center;
+  padding-bottom: 45px;
+}
+/* footer-section */
+#footer{
+   align-items: center;
+   /* height: 200px; */
+}
+.dist{
+  text-align: center;
+  padding-top: 100px;
+}
+.foot{
+  margin: 12px;
+}
+.copyright{
+  font-family: montserrat-thin;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
